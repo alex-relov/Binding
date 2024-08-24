@@ -1,0 +1,16 @@
+﻿<metadata>
+  <remove-node path="/api/package[@name='io.appmetrica.analytics']/class[@name='AdRevenue']" />
+  <remove-node path="/api/package[@name='io.appmetrica.analytics']/class[@name='AdvIdentifiersResult']" />
+  <remove-node path="/api/package[@name='io.appmetrica.analytics']/class[@name='DeferredDeeplinkListener']" />
+  <remove-node path="/api/package[@name='io.appmetrica.analytics']/class[@name='DeferredDeeplinkParametersListener']" />
+  <remove-node path="/api/package[@name='io.appmetrica.analytics']/class[@name='DeferredDeeplinkParametersListener.Error']" />
+  <remove-node path="/api/package[@name='io.appmetrica.analytics.impl']" />
+  <remove-node path="/api/package[@name='io.appmetrica.analytics.internal']" />
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+</metadata>
